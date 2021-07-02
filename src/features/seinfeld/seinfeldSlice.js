@@ -62,7 +62,7 @@ export const seinfeldSlice = createSlice({
         const episodeIdsBySeason = extractEpisodeIdsBySeason(action.payload.series);
         const appearancesBySeason = extractAppearancesBySeason(credits, episodeIdsBySeason);
         const totalAppearances = extractTotalAppearances(appearancesBySeason);
-        const sortedActors = sortActors(totalAppearances, decreasingNumber);
+        const sortedActors = sortAndFilterActors(state.filter, state.credits, totalAppearances, state.sortOrder);
 
         state.status = LOADED;
         state.credits = action.payload.credits;
