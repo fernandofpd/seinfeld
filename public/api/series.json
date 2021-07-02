@@ -1,0 +1,910 @@
+{
+  "id": "tt0098904",
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "title": "Good News, Bad News",
+          "id": "tt0098286",
+          "airDate": "5 Jul. 1989"
+        },
+        {
+          "title": "The Stakeout",
+          "id": "tt0697784",
+          "airDate": "31 May 1990"
+        },
+        {
+          "title": "The Robbery",
+          "id": "tt0697768",
+          "airDate": "7 Jun. 1990"
+        },
+        {
+          "title": "Male Unbonding",
+          "id": "tt0697645",
+          "airDate": "14 Jun. 1990"
+        },
+        {
+          "title": "The Stock Tip",
+          "id": "tt0697788",
+          "airDate": "21 Jun. 1990"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "title": "The Ex-Girlfriend",
+          "id": "tt0697692",
+          "airDate": "6 Oct. 1993"
+        },
+        {
+          "title": "The Pony Remark",
+          "id": "tt0697757",
+          "airDate": "13 Oct. 1993"
+        },
+        {
+          "title": "The Jacket",
+          "id": "tt0697713",
+          "airDate": "3 Nov. 1993"
+        },
+        {
+          "title": "The Phone Message",
+          "id": "tt0697751",
+          "airDate": "17 Nov. 1993"
+        },
+        {
+          "title": "The Apartment",
+          "id": "tt0697650",
+          "airDate": "24 Nov. 1993"
+        },
+        {
+          "title": "The Statue",
+          "id": "tt0697787",
+          "airDate": "15 Dec. 1993"
+        },
+        {
+          "title": "The Revenge",
+          "id": "tt0697766",
+          "airDate": "8 Dec. 1993"
+        },
+        {
+          "title": "The Heart Attack",
+          "id": "tt0697709",
+          "airDate": "22 Dec. 1993"
+        },
+        {
+          "title": "The Deal",
+          "id": "tt0697682",
+          "airDate": "2 May 1991"
+        },
+        {
+          "title": "The Baby Shower",
+          "id": "tt0697652",
+          "airDate": "27 Oct. 1993"
+        },
+        {
+          "title": "The Chinese Restaurant",
+          "id": "tt0697675",
+          "airDate": "10 Nov. 1993"
+        },
+        {
+          "title": "The Busboy",
+          "id": "tt0697664",
+          "airDate": "20 Oct. 1993"
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "title": "The Note",
+          "id": "tt0697741",
+          "airDate": "22 May 1995"
+        },
+        {
+          "title": "The Truth",
+          "id": "tt0697801",
+          "airDate": "23 May 1995"
+        },
+        {
+          "title": "The Pen",
+          "id": "tt0697749",
+          "airDate": "2 Oct. 1991"
+        },
+        {
+          "title": "The Dog",
+          "id": "tt0697686",
+          "airDate": "9 Oct. 1991"
+        },
+        {
+          "title": "The Library",
+          "id": "tt0697721",
+          "airDate": "16 Oct. 1991"
+        },
+        {
+          "title": "The Parking Garage",
+          "id": "tt0697747",
+          "airDate": "30 Oct. 1991"
+        },
+        {
+          "title": "The Cafe",
+          "id": "tt0697668",
+          "airDate": "6 Nov. 1991"
+        },
+        {
+          "title": "The Tape",
+          "id": "tt0697797",
+          "airDate": "13 Nov. 1991"
+        },
+        {
+          "title": "The Nose Job",
+          "id": "tt0697740",
+          "airDate": "20 Nov. 1991"
+        },
+        {
+          "title": "The Stranded",
+          "id": "tt0697789",
+          "airDate": "27 Nov. 1991"
+        },
+        {
+          "title": "The Alternate Side",
+          "id": "tt0697648",
+          "airDate": "4 Dec. 1991"
+        },
+        {
+          "title": "The Red Dot",
+          "id": "tt0697765",
+          "airDate": "11 Dec. 1991"
+        },
+        {
+          "title": "The Subway",
+          "id": "tt0697792",
+          "airDate": "8 Jan. 1992"
+        },
+        {
+          "title": "The Pez Dispenser",
+          "id": "tt0697750",
+          "airDate": "1 Jul. 1995"
+        },
+        {
+          "title": "The Suicide",
+          "id": "tt0697793",
+          "airDate": "29 Jan. 1992"
+        },
+        {
+          "title": "The Fix Up",
+          "id": "tt0697698",
+          "airDate": "22 Jul. 1995"
+        },
+        {
+          "title": "The Boyfriend",
+          "id": "tt0697738",
+          "airDate": "24 Jun. 1995"
+        },
+        {
+          "title": "The Limo",
+          "id": "tt0697722",
+          "airDate": "29 Jul. 1995"
+        },
+        {
+          "title": "The Good Samaritan",
+          "id": "tt0697704",
+          "airDate": "5 Aug. 1995"
+        },
+        {
+          "title": "The Letter",
+          "id": "tt0697720",
+          "airDate": "12 Aug. 1995"
+        },
+        {
+          "title": "The Parking Space",
+          "id": "tt0697748",
+          "airDate": "19 Aug. 1995"
+        },
+        {
+          "title": "The Keys",
+          "id": "tt0697717",
+          "airDate": "2 Sep. 1995"
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "title": "The Trip: Part 1",
+          "id": "tt0697799",
+          "airDate": "9 Jan. 1996"
+        },
+        {
+          "title": "The Trip: Part 2",
+          "id": "tt0697800",
+          "airDate": "16 Jan. 1996"
+        },
+        {
+          "title": "The Pitch",
+          "id": "tt0697755",
+          "airDate": "23 Jan. 1996"
+        },
+        {
+          "title": "The Ticket",
+          "id": "tt0697798",
+          "airDate": "16 Sep. 1992"
+        },
+        {
+          "title": "The Wallet",
+          "id": "tt0697808",
+          "airDate": "30 Jan. 1996"
+        },
+        {
+          "title": "The Watch",
+          "id": "tt0697809",
+          "airDate": "13 Feb. 1996"
+        },
+        {
+          "title": "The Bubble Boy",
+          "id": "tt0697662",
+          "airDate": "5 Mar. 1996"
+        },
+        {
+          "title": "The Cheever Letters",
+          "id": "tt0697673",
+          "airDate": "12 Mar. 1996"
+        },
+        {
+          "title": "The Opera",
+          "id": "tt0697743",
+          "airDate": "4 Nov. 1992"
+        },
+        {
+          "title": "The Virgin",
+          "id": "tt0697804",
+          "airDate": "2 Sep. 1996"
+        },
+        {
+          "title": "The Contest",
+          "id": "tt0697679",
+          "airDate": "4 Sep. 1996"
+        },
+        {
+          "title": "The Airport",
+          "id": "tt0697647",
+          "airDate": "6 Sep. 1996"
+        },
+        {
+          "title": "The Pick",
+          "id": "tt0697752",
+          "airDate": "9 Sep. 1996"
+        },
+        {
+          "title": "The Movie",
+          "id": "tt0697735",
+          "airDate": "13 Sep. 1996"
+        },
+        {
+          "title": "The Visa",
+          "id": "tt0697805",
+          "airDate": "11 Sep. 1996"
+        },
+        {
+          "title": "The Shoes",
+          "id": "tt0697775",
+          "airDate": "18 Sep. 1996"
+        },
+        {
+          "title": "The Outing",
+          "id": "tt0697745",
+          "airDate": "16 Sep. 1996"
+        },
+        {
+          "title": "The Old Man",
+          "id": "tt0697742",
+          "airDate": "20 Sep. 1996"
+        },
+        {
+          "title": "The Implant",
+          "id": "tt0697711",
+          "airDate": "23 Sep. 1996"
+        },
+        {
+          "title": "The Junior Mint",
+          "id": "tt0697715",
+          "airDate": "27 Sep. 1996"
+        },
+        {
+          "title": "The Smelly Car",
+          "id": "tt0697778",
+          "airDate": "30 Sep. 1996"
+        },
+        {
+          "title": "The Handicap Spot",
+          "id": "tt0697708",
+          "airDate": "25 Sep. 1996"
+        },
+        {
+          "title": "The Pilot",
+          "id": "tt0697754",
+          "airDate": "2 Oct. 1996"
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "title": "The Mango",
+          "id": "tt0697728",
+          "airDate": "4 Oct. 1996"
+        },
+        {
+          "title": "The Puffy Shirt",
+          "id": "tt0697762",
+          "airDate": "9 Oct. 1996"
+        },
+        {
+          "title": "The Glasses",
+          "id": "tt0697703",
+          "airDate": "7 Oct. 1996"
+        },
+        {
+          "title": "The Sniffing Accountant",
+          "id": "tt0697779",
+          "airDate": "11 Oct. 1996"
+        },
+        {
+          "title": "The Bris",
+          "id": "tt0697661",
+          "airDate": "16 Sep. 1997"
+        },
+        {
+          "title": "The Lip Reader",
+          "id": "tt0697723",
+          "airDate": "23 Sep. 1997"
+        },
+        {
+          "title": "The Non-Fat Yogurt",
+          "id": "tt0697739",
+          "airDate": "30 Sep. 1997"
+        },
+        {
+          "title": "The Barber",
+          "id": "tt0697653",
+          "airDate": "7 Oct. 1997"
+        },
+        {
+          "title": "The Masseuse",
+          "id": "tt0697730",
+          "airDate": "14 Oct. 1997"
+        },
+        {
+          "title": "The Cigar Store Indian",
+          "id": "tt0697677",
+          "airDate": "21 Oct. 1997"
+        },
+        {
+          "title": "The Conversion",
+          "id": "tt0697680",
+          "airDate": "28 Oct. 1997"
+        },
+        {
+          "title": "The Stall",
+          "id": "tt0697785",
+          "airDate": "4 Nov. 1997"
+        },
+        {
+          "title": "The Dinner Party",
+          "id": "tt0697684",
+          "airDate": "11 Nov. 1997"
+        },
+        {
+          "title": "The Marine Biologist",
+          "id": "tt0697729",
+          "airDate": "18 Nov. 1997"
+        },
+        {
+          "title": "The Pie",
+          "id": "tt0697753",
+          "airDate": "2 Dec. 1997"
+        },
+        {
+          "title": "The Stand-In",
+          "id": "tt0697786",
+          "airDate": "9 Dec. 1997"
+        },
+        {
+          "title": "The Wife",
+          "id": "tt0697810",
+          "airDate": "16 Dec. 1997"
+        },
+        {
+          "title": "The Raincoats",
+          "id": "tt0697764",
+          "airDate": "13 Jan. 1998"
+        },
+        {
+          "title": "The Fire",
+          "id": "tt0697697",
+          "airDate": "20 Jan. 1998"
+        },
+        {
+          "title": "The Hamptons",
+          "id": "tt0697707",
+          "airDate": "27 Jan. 1998"
+        },
+        {
+          "title": "The Opposite",
+          "id": "tt0697744",
+          "airDate": "17 Feb. 1998"
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "title": "The Chaperone",
+          "id": "tt0697671",
+          "airDate": "24 Feb. 1998"
+        },
+        {
+          "title": "The Big Salad",
+          "id": "tt0697656",
+          "airDate": "10 Mar. 1998"
+        },
+        {
+          "title": "The Pledge Drive",
+          "id": "tt0697756",
+          "airDate": "17 Mar. 1998"
+        },
+        {
+          "title": "The Chinese Woman",
+          "id": "tt0697676",
+          "airDate": "24 Mar. 1998"
+        },
+        {
+          "title": "The Couch",
+          "id": "tt0697681",
+          "airDate": "31 Mar. 1998"
+        },
+        {
+          "title": "The Gymnast",
+          "id": "tt0697706",
+          "airDate": "27 Oct. 1998"
+        },
+        {
+          "title": "The Soup",
+          "id": "tt0697781",
+          "airDate": "10 Nov. 1998"
+        },
+        {
+          "title": "The Mom and Pop Store",
+          "id": "tt0697733",
+          "airDate": "3 Nov. 1998"
+        },
+        {
+          "title": "The Secretary",
+          "id": "tt0697772",
+          "airDate": "17 Nov. 1998"
+        },
+        {
+          "title": "The Race",
+          "id": "tt0697763",
+          "airDate": "8 Dec. 1998"
+        },
+        {
+          "title": "The Switch",
+          "id": "tt0697796",
+          "airDate": "15 Dec. 1998"
+        },
+        {
+          "title": "The Label Maker",
+          "id": "tt0697719",
+          "airDate": "19 Jan. 1999"
+        },
+        {
+          "title": "The Scofflaw",
+          "id": "tt0697770",
+          "airDate": "26 Jan. 1999"
+        },
+        {
+          "title": "Highlights of a Hundred",
+          "id": "tt0697644",
+          "airDate": "2 Apr. 1999"
+        },
+        {
+          "title": "The Beard",
+          "id": "tt0697654",
+          "airDate": "2 Feb. 1999"
+        },
+        {
+          "title": "The Kiss Hello",
+          "id": "tt0697718",
+          "airDate": "16 Feb. 1999"
+        },
+        {
+          "title": "The Doorman",
+          "id": "tt0697689",
+          "airDate": "2 Mar. 1999"
+        },
+        {
+          "title": "The Jimmy",
+          "id": "tt0697714",
+          "airDate": "9 Mar. 1999"
+        },
+        {
+          "title": "The Doodle",
+          "id": "tt0697688",
+          "airDate": "16 Mar. 1999"
+        },
+        {
+          "title": "The Fusilli Jerry",
+          "id": "tt0697702",
+          "airDate": "23 Mar. 1999"
+        },
+        {
+          "title": "The Diplomat's Club",
+          "id": "tt0697685",
+          "airDate": "23 Mar. 1999"
+        },
+        {
+          "title": "The Face Painter",
+          "id": "tt0697693",
+          "airDate": "30 Mar. 1999"
+        },
+        {
+          "title": "The Understudy",
+          "id": "tt0697802",
+          "airDate": "30 Mar. 1999"
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "episodes": [
+        {
+          "title": "The Engagement",
+          "id": "tt0697690",
+          "airDate": "7 Sep. 1999"
+        },
+        {
+          "title": "The Postponement",
+          "id": "tt0697759",
+          "airDate": "8 Sep. 1999"
+        },
+        {
+          "title": "The Maestro",
+          "id": "tt0697726",
+          "airDate": "9 Sep. 1999"
+        },
+        {
+          "title": "The Wink",
+          "id": "tt0697812",
+          "airDate": "12 Oct. 1995"
+        },
+        {
+          "title": "The Hot Tub",
+          "id": "tt0697710",
+          "airDate": "13 Sep. 1999"
+        },
+        {
+          "title": "The Soup Nazi",
+          "id": "tt0697782",
+          "airDate": "15 Sep. 1999"
+        },
+        {
+          "title": "The Secret Code",
+          "id": "tt0697771",
+          "airDate": "16 Sep. 1999"
+        },
+        {
+          "title": "The Pool Guy",
+          "id": "tt0697758",
+          "airDate": "17 Sep. 1999"
+        },
+        {
+          "title": "The Sponge",
+          "id": "tt0697783",
+          "airDate": "21 Sep. 1999"
+        },
+        {
+          "title": "The Gum",
+          "id": "tt0697705",
+          "airDate": "22 Sep. 1999"
+        },
+        {
+          "title": "The Rye",
+          "id": "tt0697769",
+          "airDate": "23 Sep. 1999"
+        },
+        {
+          "title": "The Caddy",
+          "id": "tt0697666",
+          "airDate": "24 Sep. 1999"
+        },
+        {
+          "title": "The Seven",
+          "id": "tt0697774",
+          "airDate": "28 Sep. 1999"
+        },
+        {
+          "title": "The Cadillac",
+          "id": "tt0697667",
+          "airDate": "8 Feb. 1996"
+        },
+        {
+          "title": "The Shower Head",
+          "id": "tt0697776",
+          "airDate": "1 Oct. 1999"
+        },
+        {
+          "title": "The Doll",
+          "id": "tt0697687",
+          "airDate": "5 Oct. 1999"
+        },
+        {
+          "title": "The Friars Club",
+          "id": "tt0697700",
+          "airDate": "6 Oct. 1999"
+        },
+        {
+          "title": "The Wig Master",
+          "id": "tt0697811",
+          "airDate": "7 Oct. 1999"
+        },
+        {
+          "title": "The Calzone",
+          "id": "tt0697669",
+          "airDate": "8 Oct. 1999"
+        },
+        {
+          "title": "The Bottle Deposit",
+          "id": "tt0697660",
+          "airDate": "2 May 1996"
+        },
+        {
+          "title": "The Wait Out",
+          "id": "tt0697807",
+          "airDate": "14 Oct. 1999"
+        },
+        {
+          "title": "The Invitations",
+          "id": "tt0697712",
+          "airDate": "15 Oct. 1999"
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "episodes": [
+        {
+          "title": "The Foundation",
+          "id": "tt0697699",
+          "airDate": "5 Sep. 2000"
+        },
+        {
+          "title": "The Soul Mate",
+          "id": "tt0697780",
+          "airDate": "6 Sep. 2000"
+        },
+        {
+          "title": "The Bizarro Jerry",
+          "id": "tt0697657",
+          "airDate": "6 Sep. 2000"
+        },
+        {
+          "title": "The Little Kicks",
+          "id": "tt0697725",
+          "airDate": "7 Sep. 2000"
+        },
+        {
+          "title": "The Package",
+          "id": "tt0697746",
+          "airDate": "9 Sep. 2000"
+        },
+        {
+          "title": "The Fatigues",
+          "id": "tt0697694",
+          "airDate": "12 Sep. 2000"
+        },
+        {
+          "title": "The Checks",
+          "id": "tt0697672",
+          "airDate": "13 Sep. 2000"
+        },
+        {
+          "title": "The Chicken Roaster",
+          "id": "tt0697674",
+          "airDate": "14 Nov. 1996"
+        },
+        {
+          "title": "The Abstinence",
+          "id": "tt0697646",
+          "airDate": "14 Sep. 2000"
+        },
+        {
+          "title": "The Andrea Doria",
+          "id": "tt0697649",
+          "airDate": "19 Dec. 1996"
+        },
+        {
+          "title": "The Little Jerry",
+          "id": "tt0697724",
+          "airDate": "19 Sep. 2000"
+        },
+        {
+          "title": "The Money",
+          "id": "tt0697734",
+          "airDate": "25 Sep. 2000"
+        },
+        {
+          "title": "The Comeback",
+          "id": "tt0697678",
+          "airDate": "23 Sep. 2000"
+        },
+        {
+          "title": "The Van Buren Boys",
+          "id": "tt0697803",
+          "airDate": "27 Sep. 2000"
+        },
+        {
+          "title": "The Susie",
+          "id": "tt0697795",
+          "airDate": "26 Sep. 2000"
+        },
+        {
+          "title": "The Pothole",
+          "id": "tt0697760",
+          "airDate": "27 Aug. 2000"
+        },
+        {
+          "title": "The English Patient",
+          "id": "tt0697691",
+          "airDate": "3 Oct. 2000"
+        },
+        {
+          "title": "The Nap",
+          "id": "tt0697737",
+          "airDate": "3 Oct. 2000"
+        },
+        {
+          "title": "The Yada Yada",
+          "id": "tt0697814",
+          "airDate": "4 Oct. 2000"
+        },
+        {
+          "title": "The Millennium",
+          "id": "tt0697732",
+          "airDate": "10 Oct. 2000"
+        },
+        {
+          "title": "The Muffin Tops",
+          "id": "tt0697736",
+          "airDate": "12 Oct. 2000"
+        },
+        {
+          "title": "The Summer of George",
+          "id": "tt0697794",
+          "airDate": "13 Oct. 2000"
+        }
+      ]
+    },
+    {
+      "season": 9,
+      "episodes": [
+        {
+          "title": "The Butter Shave",
+          "id": "tt0697665",
+          "airDate": "11 Sep. 2001"
+        },
+        {
+          "title": "The Voice",
+          "id": "tt0697806",
+          "airDate": "2 Oct. 1997"
+        },
+        {
+          "title": "The Serenity Now",
+          "id": "tt0697773",
+          "airDate": "13 Sep. 2001"
+        },
+        {
+          "title": "The Blood",
+          "id": "tt0697658",
+          "airDate": "17 Sep. 2001"
+        },
+        {
+          "title": "The Junk Mail",
+          "id": "tt0697716",
+          "airDate": "18 Sep. 2001"
+        },
+        {
+          "title": "The Merv Griffin Show",
+          "id": "tt0697731",
+          "airDate": "26 Sep. 2001"
+        },
+        {
+          "title": "The Slicer",
+          "id": "tt0697777",
+          "airDate": "26 Sep. 2001"
+        },
+        {
+          "title": "The Betrayal",
+          "id": "tt0697655",
+          "airDate": "9 Jan. 1999"
+        },
+        {
+          "title": "The Apology",
+          "id": "tt0697651",
+          "airDate": "28 Sep. 2001"
+        },
+        {
+          "title": "The Strike",
+          "id": "tt0697790",
+          "airDate": "1 Sep. 2001"
+        },
+        {
+          "title": "The Dealership",
+          "id": "tt0697683",
+          "airDate": "2 Oct. 2001"
+        },
+        {
+          "title": "The Reverse Peephole",
+          "id": "tt0697767",
+          "airDate": "2 Oct. 2001"
+        },
+        {
+          "title": "The Cartoon",
+          "id": "tt0697670",
+          "airDate": "3 Oct. 2001"
+        },
+        {
+          "title": "The Strongbox",
+          "id": "tt0697791",
+          "airDate": "3 Oct. 2001"
+        },
+        {
+          "title": "The Wizard",
+          "id": "tt0697813",
+          "airDate": "4 Oct. 2001"
+        },
+        {
+          "title": "The Burning",
+          "id": "tt0697663",
+          "airDate": "4 Oct. 2001"
+        },
+        {
+          "title": "The Bookstore",
+          "id": "tt0697659",
+          "airDate": "7 Oct. 2001"
+        },
+        {
+          "title": "The Frogger",
+          "id": "tt0697701",
+          "airDate": "7 Oct. 2001"
+        },
+        {
+          "title": "The Maid",
+          "id": "tt0697727",
+          "airDate": "9 Oct. 2001"
+        },
+        {
+          "title": "The Puerto Rican Day",
+          "id": "tt0697761",
+          "airDate": "9 Oct. 2001"
+        },
+        {
+          "title": "The Chronicle",
+          "id": "tt0893212",
+          "airDate": "10 Oct. 2001"
+        },
+        {
+          "title": "The Finale",
+          "id": "tt0697695",
+          "airDate": "14 May 1998"
+        }
+      ]
+    }
+  ]
+}
