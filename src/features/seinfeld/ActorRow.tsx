@@ -1,4 +1,4 @@
-import { useSelector } from 'react-redux';
+import {useSelector} from 'react-redux';
 import {
   getAppearancesBySeason,
   getEpisodeIds,
@@ -6,9 +6,11 @@ import {
   getSeries,
   getTotalAppearances,
 } from './seinfeldSlice';
-import { CountBadge } from './CountBadge';
+import {CountBadge} from './CountBadge';
+import {ActorType} from "./seinfeldTypes";
+import {AppearanceCell} from "./AppearanceCell";
 
-export function ActorRow(props) {
+export function ActorRow(props: { actor: ActorType }) {
   const series = useSelector(getSeries);
   const episodeIdsBySeason = useSelector(getEpisodeIds);
   const selectedSeason = useSelector(getSelectedSeason);
@@ -17,8 +19,8 @@ export function ActorRow(props) {
   const allAppearancesBySeason = useSelector(getAppearancesBySeason);
   const actorCredits = actor.credits.map((c) => c.episodeId);
 
-  const appearancesBySeason = allAppearancesBySeason.find((a) => actor.id === a[0])[1];
-  const totalAppearances = allTotalAppearances.find((a) => actor.id === a[0])[1];
+  const appearancesBySeason = (allAppearancesBySeason.find((a) => actor.id === a[0])!)[1];
+  const totalAppearances = (allTotalAppearances.find((a) => actor.id === a[0])!)[1];
   const totalEpisodes = episodeIdsBySeason.flatMap((e) => e).length;
 
   const appearances = series.seasons.flatMap((season, s) => {
@@ -29,29 +31,15 @@ export function ActorRow(props) {
       .map((episodeId) => actorCredits.includes(episodeId));
     const numberOfEpisodes = appearanceByEpisode.length;
 
-    const listOfAppearances = appearanceByEpisode.map((isStarring, e) => {
-      const isLast = e === numberOfEpisodes - 1;
-      let classes = `for-episode ${isLast ? 'last' : ''} ${isSelectedSeason ? '' : 'hidden'}`;
-      if ((e <= numberOfEpisodes && !appearanceByEpisode[e + 1]) || isLast) classes += ' end';
-      if (isStarring) {
-        classes += ' starring';
-        if ((e > 0 && !appearanceByEpisode[e - 1]) || e === 0) classes += ' start';
-
-        return (
-          <td className={classes}>
-            <div className="badge-wrapper">
-              <div className="badge" />
-            </div>
-          </td>
-        );
-      }
-
-      return (
-        <td className={classes}>
-          <div className="badge-wrapper" />
-        </td>
-      );
-    });
+    const listOfAppearances = appearanceByEpisode.map((isStarring, e) => (
+      <AppearanceCell
+        episodeNumber={e}
+        numberOfEpisodes={numberOfEpisodes}
+        appearanceByEpisode={appearanceByEpisode}
+        isStarring={isStarring}
+        isSelectedSeason={isSelectedSeason}
+      />
+    ));
 
     return (
       <>

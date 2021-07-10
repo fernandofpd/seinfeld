@@ -1,16 +1,12 @@
 {
   "extends": [
-    "airbnb",
-    "plugin:react/recommended"
+    "react-app",
+    "react-app/jest"
   ],
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "parser": "@typescript-eslint/parser",
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/forbid-prop-types": [2, { "forbid": [ "any" ] }], // TODO replace object with shape
-    "react/prop-types": 2,
-    "react/react-in-jsx-scope": "off",
-    "no-param-reassign": "off"
-  },
-  "env": {
-    "browser": true
   }
 }

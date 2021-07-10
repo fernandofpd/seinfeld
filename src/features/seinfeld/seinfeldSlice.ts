@@ -1,22 +1,28 @@
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { fetchFromAPI } from './fetchFromAPI';
+import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
 import {
-  decreasingNumber,
   extractAppearancesBySeason,
   extractEpisodeIdsBySeason,
-  extractTotalAppearances, increasingNumber,
-  sortActors, sortAndFilterActors,
+  extractTotalAppearances, fetchFromAPI,
+  sortAndFilterActors,
 } from './seinfeldHelpers';
+import {LOADED, LOADING, NOT_LOADED, SORT_ASCENDING, SORT_DESCENDING,} from './constants';
 import {
-  LOADED, LOADING, NOT_LOADED, SORT_ASCENDING, SORT_DESCENDING,
-} from './constants';
+  AppearancesBySeasonType,
+  CreditsType,
+  RootState,
+  SeinfeldState,
+  SeriesType, SortType,
+  StatusType,
+  TotalAppearancesType
+} from "./seinfeldTypes";
 
-const initialState = {
+const initialState: SeinfeldState = {
   status: NOT_LOADED,
   credits: [],
-  series: {},
+  series: {id: '', seasons: []},
   episodeIdsBySeason: [],
   selectedSeason: 2,
+  selectedEpisode: undefined,
   totalAppearances: [],
   appearancesBySeason: [],
   sortedActors: [],
@@ -27,9 +33,8 @@ const initialState = {
 export const fetchData = createAsyncThunk(
   'data/fetch',
   async () => {
-    const response = await fetchFromAPI();
     // The value we return becomes the `fulfilled` action payload
-    return response;
+    return await fetchFromAPI();
   },
 );
 
@@ -39,6 +44,9 @@ export const seinfeldSlice = createSlice({
   reducers: {
     setSelectedSeason: (state, action) => {
       state.selectedSeason = action.payload;
+    },
+    setSelectedEpisode: (state, action) => {
+      state.selectedEpisode = action.payload;
     },
     toggleSort: (state) => {
       const sortOrder = state.sortOrder === SORT_DESCENDING ? SORT_ASCENDING : SORT_DESCENDING;
@@ -78,16 +86,17 @@ export const seinfeldSlice = createSlice({
   },
 });
 
-export const { setSelectedSeason, toggleSort, filterActors } = seinfeldSlice.actions;
+export const { setSelectedSeason, setSelectedEpisode, toggleSort, filterActors } = seinfeldSlice.actions;
 
-export const getStatus = (state) => state.seinfeld.status;
-export const getCredits = (state) => state.seinfeld.credits;
-export const getSeries = (state) => state.seinfeld.series;
-export const getEpisodeIds = (state) => state.seinfeld.episodeIdsBySeason;
-export const getSelectedSeason = (state) => state.seinfeld.selectedSeason;
-export const getTotalAppearances = (state) => state.seinfeld.totalAppearances;
-export const getAppearancesBySeason = (state) => state.seinfeld.appearancesBySeason;
-export const getSortedActors = (state) => state.seinfeld.sortedActors;
-export const getSortOrder = (state) => state.seinfeld.sortOrder;
+export const getStatus = (state: RootState): StatusType => state.seinfeld.status;
+export const getCredits = (state: RootState): CreditsType => state.seinfeld.credits;
+export const getSeries = (state: RootState): SeriesType => state.seinfeld.series;
+export const getEpisodeIds = (state: RootState): string[][] => state.seinfeld.episodeIdsBySeason;
+export const getSelectedSeason = (state: RootState): number => state.seinfeld.selectedSeason;
+export const getSelectedEpisode = (state: RootState): number | undefined => state.seinfeld.selectedEpisode;
+export const getTotalAppearances = (state: RootState): TotalAppearancesType => state.seinfeld.totalAppearances;
+export const getAppearancesBySeason = (state: RootState): AppearancesBySeasonType => state.seinfeld.appearancesBySeason;
+export const getSortedActors = (state: RootState): string[] => state.seinfeld.sortedActors;
+export const getSortOrder = (state: RootState): SortType => state.seinfeld.sortOrder;
 
 export default seinfeldSlice.reducer;

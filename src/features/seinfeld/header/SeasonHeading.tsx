@@ -1,7 +1,8 @@
 import { useDispatch } from 'react-redux';
-import { setSelectedSeason } from './seinfeldSlice';
+import { setSelectedSeason } from '../seinfeldSlice';
+import {SeasonType} from "../seinfeldTypes";
 
-export function SeasonCell(props) {
+export function SeasonHeading(props: { season: SeasonType }) {
   const dispatch = useDispatch();
   const { season } = props;
   return (

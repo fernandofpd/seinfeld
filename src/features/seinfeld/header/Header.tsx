@@ -2,10 +2,11 @@ import { useSelector } from 'react-redux';
 import {
   getSelectedSeason, getSeries, getStatus,
 } from '../seinfeldSlice';
-import { SeasonCell } from '../SeasonCell';
+import { SeasonHeading } from './SeasonHeading';
 import { NameHeading } from './NameHeading';
 import { TotalHeading } from './TotalHeading';
 import {LOADED} from "../constants";
+import {SeasonEpisode} from "./SeasonEpisode";
 
 export function Header() {
   const status = useSelector(getStatus);
@@ -19,15 +20,13 @@ export function Header() {
   const seasonsNumbers = series.seasons.flatMap((season) => {
     const isSelectedSeason = season.season === selectedSeason;
 
-    const seasonEpisodes = season.episodes.map((episode) => (
-      <th key={episode.id} className={`slanted ${isSelectedSeason ? '' : 'hidden'}`}>
-        <div><span>{episode.title}</span></div>
-      </th>
+    const seasonEpisodes = season.episodes.map((episode, e) => (
+      <SeasonEpisode episode={episode} episodeNumber={e} isSelectedSeason={isSelectedSeason} />
     ));
 
     return (
       <>
-        <SeasonCell season={season} />
+        <SeasonHeading season={season} />
         {seasonEpisodes}
       </>
     );

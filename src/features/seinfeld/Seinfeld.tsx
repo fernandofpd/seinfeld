@@ -1,11 +1,9 @@
-import { useDispatch, useSelector } from 'react-redux';
-import {
-  fetchData, getCredits, getSortedActors, getStatus,
-} from './seinfeldSlice';
+import {useDispatch, useSelector} from 'react-redux';
+import {fetchData, getCredits, getSortedActors, getStatus,} from './seinfeldSlice';
 import './Seinfeld.css';
-import { Header } from './header/Header';
-import { ActorRow } from './ActorRow';
-import { LOADED, NOT_LOADED } from './constants';
+import {Header} from './header/Header';
+import {ActorRow} from './ActorRow';
+import {LOADED, NOT_LOADED} from './constants';
 
 export function Seinfeld() {
   const status = useSelector(getStatus);
@@ -18,12 +16,12 @@ export function Seinfeld() {
     dispatch(fetchData());
   }
 
-  let mainBody = [];
+  let mainBody: JSX.Element[] = [];
 
   if (status === LOADED) {
     mainBody = sortedActors
       .map((actorId) => {
-        const actor = credits.find((c) => c.id === actorId);
+        const actor = credits.find((c) => c.id === actorId)!;
         return <ActorRow actor={actor} />;
       });
   }
