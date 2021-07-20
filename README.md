@@ -8,7 +8,7 @@
 * Hovering over a bubble will show the percentage of appearances for the season or in total.
 ## Data
 * The data has been retrieved by crawling IMDB and processed locally.
-* The source code for obtaining that data is under `./crawler/scripts.js`
+* The source code for obtaining that data is under `./crawler/main.js`
 * To pretend that we're fetching from a public API the data is exposed under `/public/api` 
   as `credits.json` and `series.json` and fetched with the fetched API from the React app.
 
