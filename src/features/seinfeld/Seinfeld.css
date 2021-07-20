@@ -19,7 +19,7 @@
 }
 
 .slanted:not(.hidden) > div {
-    transform: translate(0.5rem, 1rem) rotate(315deg);
+    transform: translate(0.5rem, 1.5rem) rotate(315deg);
     width: 1.5rem;
 }
 
@@ -29,6 +29,11 @@
 
 .slanted.hidden > div {
     width: 0;
+}
+
+.slanted a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .season.slanted {
@@ -94,14 +99,14 @@ td.hidden .badge-wrapper {
     background: var(--badge-color);
     content: ' ';
     position: absolute;
-    z-index: 100
+    z-index: 9
 }
 
 .for-episode.last:not(.hidden) {
     padding-right: 0.5rem;
 }
 
-.starring.start.end .badge {
+.starring .badge {
     width: calc(0.6 * var(--wrapper-height));
 }
 
@@ -113,7 +118,6 @@ td.hidden .badge-wrapper {
 .starring.end .badge {
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
-    width: 80%;
 }
 
 .count {
@@ -216,6 +220,28 @@ td:hover .badge-count {
     transform: translate(-50%);
 }
 
+.for-episode.last.here:after {
+    left: 40%;
+    transform: translate(-50%);
+}
+
 .slanted.here span {
     font-weight: bold;
+}
+
+/*tr:not(:hover) .for-episode:nth-child(even):not(.hidden) {*/
+/*    background: lightpink;*/
+/*}*/
+
+thead {
+    background: #eee8d5;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+thead th
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }

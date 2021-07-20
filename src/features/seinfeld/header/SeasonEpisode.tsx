@@ -20,7 +20,11 @@ export function SeasonEpisode(props: SeasonEpisodeProps) {
 
   return (
     <th key={episode.id} className={classes} onMouseEnter={() => dispatch(setSelectedEpisode(episodeNumber))} onMouseLeave={() => dispatch(setSelectedEpisode(undefined))}>
-      <div><span>{episode.title}</span></div>
+      <div><span>
+        <a href={`https://www.imdb.com/title/${episode.id}`} target="_blank" rel="noreferrer">
+          {episode.title}
+        </a>
+      </span></div>
     </th>
   );
 }

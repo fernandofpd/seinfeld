@@ -21,7 +21,7 @@ const initialState: SeinfeldState = {
   credits: [],
   series: {id: '', seasons: []},
   episodeIdsBySeason: [],
-  selectedSeason: 2,
+  selectedSeason: 0,
   selectedEpisode: undefined,
   totalAppearances: [],
   appearancesBySeason: [],
@@ -43,7 +43,7 @@ export const seinfeldSlice = createSlice({
   initialState,
   reducers: {
     setSelectedSeason: (state, action) => {
-      state.selectedSeason = action.payload;
+      state.selectedSeason = action.payload !== state.selectedSeason ? action.payload : 0;
     },
     setSelectedEpisode: (state, action) => {
       state.selectedEpisode = action.payload;

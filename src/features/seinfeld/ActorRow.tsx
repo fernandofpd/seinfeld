@@ -40,7 +40,6 @@ export function ActorRow(props: { actor: ActorType }) {
         isSelectedSeason={isSelectedSeason}
       />
     ));
-
     return (
       <>
         <CountBadge isSelectedSeason={isSelectedSeason} numberOfAppearances={numberOfAppearances} numberOfEpisodes={numberOfEpisodes}/>
@@ -48,9 +47,12 @@ export function ActorRow(props: { actor: ActorType }) {
       </>
     );
   });
+
+  const characters = actor.credits.map((e) => e.character)
+    .filter((v, i, a) => a.indexOf(v) === i); // distinct values
   return (
     <tr>
-      <td className="name">{actor.name}</td>
+      <td className="name" title={characters.join(', ')}>{actor.name}</td>
       <CountBadge isSelectedSeason={false} numberOfAppearances={totalAppearances} numberOfEpisodes={totalEpisodes} />
       {appearances}
     </tr>
